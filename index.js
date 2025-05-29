@@ -1,3 +1,4 @@
+
 const $startGameButton = document.querySelector(".start-quiz")
 const $nextQuestionButton = document.querySelector(".next-question")
 const $questionsContainer = document.querySelector(".questions-container")
@@ -10,6 +11,7 @@ let totalCorrect = 0
 
 $startGameButton.addEventListener("click", startGame)
 $nextQuestionButton.addEventListener("click", displayNextQuestion)
+
 
 function startGame() {
   $startGameButton.classList.add("hide")
@@ -168,7 +170,7 @@ const questions = [
         { text: 'citoplasma', correct: false },
         { text: 'núcleo', correct: false },
         { text: 'arcada dentária', correct: false },
-        { text: 'genes', correct: true },
-      ]
-    },
+        { text: 'genes', correct: true },
+      ]
+    },
   ]
